@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelector('.docs').style.display = "none";
-  let arr = [
+  
+});
+let arr = [
     "url('../icecream.jpg')",
     "url('../musli.jpg')",
     "url('../istockphoto-1416818056-1024x1024.jpg')",
@@ -14,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
       i = 0;
     }
   }, 2000);
-});
 
   
   const btns = document.querySelectorAll(".sidebar-btn");
