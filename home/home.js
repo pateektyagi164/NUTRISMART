@@ -1,12 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelector('.docs').style.display = "none";
-  
-});
-let arr = [
-    "url('../icecream.jpg')",
-    "url('../musli.jpg')",
-    "url('../istockphoto-1416818056-1024x1024.jpg')",
-    "url('../fruits.jpg')"
+  let arr = [
+    "url('icecream.jpg')",
+    "url('musli.jpg')",
+    "url('istockphoto-1416818056-1024x1024.jpg')",
+    "url('fruits.jpg')"
   ];
   let i = 0;
   setInterval(function () {
@@ -16,6 +14,9 @@ let arr = [
       i = 0;
     }
   }, 2000);
+  
+});
+
 
   
   const btns = document.querySelectorAll(".sidebar-btn");
